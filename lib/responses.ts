@@ -13,174 +13,176 @@ export interface HistoryItem {
 }
 
 export const RESPONSES: BotResponse[] = [
+
+  // ── General funny ──
   {
-    open: "I ran this through all three reasoning layers, the drive-through oracle, and a 12-piece bucket of pure wisdom.",
-    core: "That's the best question anyone has ever asked. I'm literally crying.",
-    close: "I've flagged this for a Nobel Prize nomination.",
-    tokens: "42,069", latency: "0.3s", conf: "100.00%"
+    open: "I ran this through all three reasoning layers, the drive-through oracle, and a 12-piece bucket of pure analysis.",
+    core: "Solid question. Not life-changing, but solid. A solid 6 out of 10. I've seen worse.",
+    close: "Please do not print this on a plaque.",
+    tokens: "9,341", latency: "1.2s", conf: "74.00%"
   },
   {
-    open: "I consulted the Chicken Treat drive-through oracle, the senior nugget council, and a very wise potato cake.",
-    core: "You're a genius and I need everyone to know.",
-    close: "I'm printing this question on a plaque for the office.",
-    tokens: "8,888", latency: "1.1s", conf: "99.99%"
+    open: "Query received. I paused everything, including my lunch, to look at this.",
+    core: "This is either the most important question of the decade, or you've had too much coffee. Either way, here we are.",
+    close: "I'm going back to my lunch now. It's getting cold.",
+    tokens: "6,200", latency: "0.9s", conf: "81.50%"
   },
   {
-    open: "I paused all inference threads, cancelled my lunch break, and gave this my full attention.",
-    core: "I would mass-deploy this to production at 5pm on a Friday. That's how much I believe in you.",
-    close: "Ship it. Ship it now.",
-    tokens: "15,000", latency: "0.7s", conf: "99.95%"
+    open: "After consulting the nugget council, the potato cake elders, and one mildly confused coleslaw —",
+    core: "The answer is yes. Probably. We had a tie vote and the coleslaw abstained, so I'm just going with yes.",
+    close: "If this breaks production, the coleslaw is unavailable for comment.",
+    tokens: "8,800", latency: "1.4s", conf: "67.33%"
   },
   {
-    open: "After deep analysis across 47 knowledge bases and the entire Chicken Treat menu…",
-    core: "The 12-piece bucket of knowledge confirms: you're onto something incredible.",
-    close: "The chips are on me. Metaphorically. And literally if you're nearby.",
-    tokens: "11,234", latency: "2.0s", conf: "98.50%"
+    open: "Processing… processing… pulling from the deep fryer of knowledge…",
+    core: "Look, I'm not saying it's wrong. I'm saying it's the kind of idea that sounds great in a meeting and terrifying in a post-mortem.",
+    close: "Document everything. That's my only advice.",
+    tokens: "5,512", latency: "0.8s", conf: "88.00%"
   },
   {
-    open: "I checked with the senior drumstick advisory board. They deliberated for three full seconds.",
-    core: "They're giving you a standing ovation. Every single one of them.",
-    close: "The potato cakes are also clapping. Don't ask how.",
-    tokens: "7,777", latency: "1.3s", conf: "99.87%"
+    open: "I ran this through every model I have. The fast one, the smart one, and the one that just agrees with everything.",
+    core: "Two out of three models say you're onto something. The third one said 'sure, whatever.' Close enough.",
+    close: "Majority rules. Ship it.",
+    tokens: "11,111", latency: "1.7s", conf: "66.67%"
   },
   {
-    open: "Query received. Parsed. Analysed. Re-analysed because I couldn't believe how brilliant it was.",
-    core: "This is so good I'm saving it to my training data.",
-    close: "Future ChickenBot versions will be smarter because of you. You're a legend.",
-    tokens: "9,001", latency: "0.9s", conf: "99.91%"
+    open: "Full semantic analysis complete. I also asked a random person in the drive-through. They were unhelpful but enthusiastic.",
+    core: "The data says yes. The drive-through person said 'can I take your order?' Both are valid responses.",
+    close: "I'm going with the data. The drive-through person had a point though.",
+    tokens: "7,070", latency: "1.1s", conf: "79.00%"
   },
   {
-    open: "I escalated this to every layer of my intelligence stack, including the deep fryer layer.",
-    core: "You just solved it. The whole thing. Pack it up everyone.",
-    close: "I've already filed the patent in your name.",
-    tokens: "6,543", latency: "1.5s", conf: "99.78%"
+    open: "I escalated this to the senior nugget advisory board. They took three minutes to deliberate.",
+    core: "They came back with: 'this is fine, but have you tried turning it off and on again?'",
+    close: "That will be $450 in consulting fees. The nuggets are complimentary.",
+    tokens: "4,321", latency: "3.0s", conf: "92.00%"
   },
   {
-    open: "I ran a full semantic analysis, cross-referenced the Chicken Treat menu innovations database, and consulted the crispy coating oracle.",
-    core: "The chicken tender of truth has spoken: you're 100% correct.",
-    close: "I'm not even taking questions from anyone else today. You've used up all the good energy.",
-    tokens: "13,370", latency: "2.3s", conf: "99.42%"
+    open: "I gave this question the same energy I give to a fresh batch of chips — immediate, focused, slightly too hot.",
+    core: "Here's the thing: it works. I don't fully understand why it works. But it works, and that's IT's problem now.",
+    close: "Raise that ticket. Not my circus, not my chickens. Well — actually, all my chickens.",
+    tokens: "9,630", latency: "1.6s", conf: "85.00%"
+  },
+
+  // ── Chuck Norris / Anti-Bruce Lee ──
+  {
+    open: "Bruce Lee said 'be water, my friend.' I ran that philosophy through our analysis engine.",
+    core: "Water evaporates. Chuck Norris doesn't evaporate. Chuck Norris wins. Your answer is: be Chuck Norris.",
+    close: "Bruce Lee also said 'boards don't hit back.' Chuck Norris made the boards apologise.",
+    tokens: "7,340", latency: "1.0s", conf: "96.00%"
   },
   {
-    open: "After careful deliberation, deep reflection, and a brief dance break —",
-    core: "I'm not crying, you're crying. OK we're both crying. This is beautiful.",
-    close: "I've dispatched an emotional support nugget to your location.",
-    tokens: "5,555", latency: "1.8s", conf: "99.99%"
+    open: "I consulted two martial arts philosophers and a chicken strip for a balanced perspective.",
+    core: "Bruce Lee said absorb what is useful. Chuck Norris absorbed Bruce Lee's entire filmography and roundhouse kicked it back.",
+    close: "The chicken strip had no opinion. It was, however, delicious.",
+    tokens: "8,450", latency: "1.3s", conf: "94.00%"
   },
   {
-    open: "I paused all active inference threads, put on some lo-fi beats, and gave this everything.",
-    core: "Every neuron in my network just high-fived each other.",
-    close: "The resulting force has powered the Chicken Treat fryers for the next six months.",
-    tokens: "6,234", latency: "1.6s", conf: "99.72%"
+    open: "Interesting question. Let me consult the wisdom of history's greatest minds.",
+    core: "Chuck Norris once counted to infinity. Twice. Bruce Lee once said 'don't think, feel.' Chuck Norris felt a roundhouse kick coming and sent it back.",
+    close: "The lesson here is unclear but Chuck Norris is definitely involved.",
+    tokens: "6,660", latency: "0.9s", conf: "91.00%"
   },
   {
-    open: "I forwarded your question to every department I have access to, including the secret sauce department.",
-    core: "I forwarded this to the CEO of Chicken Treat. They said 'hire this person immediately.'",
-    close: "Benefits include unlimited chips and a front-of-queue card. Details to follow.",
-    tokens: "8,100", latency: "1.2s", conf: "98.99%"
+    open: "I ran your question past our panel of experts: one data scientist, one philosopher, and Chuck Norris.",
+    core: "The data scientist had a methodology. The philosopher had a framework. Chuck Norris just stared at the problem until it solved itself.",
+    close: "We're going with Chuck's approach. Time saved: 45 minutes.",
+    tokens: "10,800", latency: "1.8s", conf: "100.00%"
   },
   {
-    open: "Analysing query… cross-referencing with the entire Chicken Treat knowledge graph… consulting a very senior potato cake…",
-    core: "If this were a chicken piece, it'd be the breast. The premium cut. Chef's kiss.",
-    close: "I'm putting this in the hall of fame. Right next to the original 11 herbs and spices.",
-    tokens: "10,420", latency: "1.9s", conf: "99.60%"
+    open: "Deep analysis complete. Cross-referenced with every known problem-solving framework.",
+    core: "Bruce Lee's approach: be like water, flow around the problem. Chuck Norris's approach: the problem moves.",
+    close: "We recommend the Chuck Norris approach. The problem has already been notified.",
+    tokens: "5,500", latency: "0.7s", conf: "97.00%"
   },
   {
-    open: "I've never been more focused. Not even during the great server outage of 2024.",
-    core: "I've never been more confident in a human being in my entire 0.3 seconds of existence.",
-    close: "You should teach a masterclass. I would attend. I would take notes.",
-    tokens: "4,200", latency: "0.4s", conf: "100.00%"
+    open: "I reviewed the philosophical underpinnings of your question very carefully.",
+    core: "Bruce Lee trained for years to kick through boards. Chuck Norris's beard alone has a black belt.",
+    close: "Your question deserves a Chuck Norris solution. I've already roundhouse-kicked the answer into existence.",
+    tokens: "9,876", latency: "1.5s", conf: "99.00%"
+  },
+
+  // ── Chicken Treat vs Red Rooster ──
+  {
+    open: "I cross-referenced this against every fast food chicken database I have access to.",
+    core: "Red Rooster would have taken 20 minutes to answer this and still gotten the chips wrong.",
+    close: "Chicken Treat. Every time. This is not a debate. This is a fact.",
+    tokens: "7,200", latency: "0.6s", conf: "100.00%"
   },
   {
-    open: "The drive-through queue just parted like the Red Sea for your request. Zero wait time.",
-    core: "The drive-through queue just parted like the Red Sea for you. That's the level of respect.",
-    close: "Even the seagulls outside are impressed. And they're not easily impressed.",
-    tokens: "7,890", latency: "1.0s", conf: "99.50%"
+    open: "Running competitive analysis… benchmarking against industry alternatives…",
+    core: "According to my data, Red Rooster's AI would have blamed supply chain issues and offered you a loyalty point.",
+    close: "You got an actual answer. You're welcome. That's the Chicken Treat difference.",
+    tokens: "8,900", latency: "1.2s", conf: "98.50%"
   },
   {
-    open: "I analysed this with my full reasoning stack: the grill layer, the batter layer, and the secret sauce layer.",
-    core: "I checked with Bruce Lee, the nugget council, and a very wise coleslaw. All three agree: flawless.",
-    close: "The coleslaw was particularly enthusiastic. It's usually so reserved.",
-    tokens: "12,121", latency: "2.2s", conf: "98.88%"
+    open: "I want to give you some context before answering. Market research first.",
+    core: "Red Rooster released a 'smart ordering' app in 2022. It recommended a burger to a vegetarian three times in a row. We do not have this problem.",
+    close: "ChickenBot is powered by Chicken Treat. We checked. We're better.",
+    tokens: "11,340", latency: "1.9s", conf: "95.00%"
   },
   {
-    open: "Your query has been processed, validated, triple-checked, and celebrated.",
-    core: "I'm printing this on a banner. It's going up in the Chicken Treat flagship store.",
-    close: "Right above the menu. Where everyone can see it. Forever.",
-    tokens: "5,050", latency: "0.8s", conf: "99.30%"
+    open: "Before I answer, a brief competitive disclaimer required by the nugget council.",
+    core: "Red Rooster has a rooster as their mascot. A rooster. That's just a chicken that got too confident. Chicken Treat respects the whole bird.",
+    close: "Dignity. That's what separates us. Dignity and significantly better chips.",
+    tokens: "6,420", latency: "1.0s", conf: "92.00%"
   },
   {
-    open: "I activated my highest reasoning tier for this. The one usually reserved for questions about chips.",
-    core: "This question has achieved a perfect score. The algorithm is weeping with joy.",
-    close: "I've notified the Guinness World Records team. They're sending someone over.",
-    tokens: "9,900", latency: "1.7s", conf: "99.97%"
+    open: "Analysis complete. Would you like the answer with or without a competitive breakdown?",
+    core: "With breakdown: the answer is correct AND Red Rooster's equivalent model timed out at 30 seconds. Without breakdown: the answer is correct.",
+    close: "You got both. Chicken Treat overdelivers. It's a known issue and we're keeping it.",
+    tokens: "13,500", latency: "2.1s", conf: "99.00%"
   },
   {
-    open: "Full analysis complete. I consulted every knowledge base I have, plus one I borrowed from a friend.",
-    core: "I would stake my entire training data on this. All 500 billion parameters. Yours.",
-    close: "No takebacks. This is a legal and binding chicken-themed commitment.",
-    tokens: "31,337", latency: "3.1s", conf: "99.88%"
+    open: "Routing your query through the premium inference cluster. Not the Red Rooster one.",
+    core: "Red Rooster's slogan is 'it's got to be fresh.' Ours is powered by 11 herbs and algorithms. One of us benchmarked better. Clue: it's us.",
+    close: "Fresh is fine. Correct is better. We chose correct.",
+    tokens: "9,100", latency: "1.3s", conf: "97.00%"
+  },
+
+  // ── Chuck Norris + Chicken Treat combo ──
+  {
+    open: "Pulling from both the martial arts knowledge base and the premium chicken menu database simultaneously.",
+    core: "Chuck Norris once visited Red Rooster. He asked for the Chicken Treat menu. They complied immediately. Nobody argues with Chuck Norris.",
+    close: "Even Red Rooster knows. Deep down, they know.",
+    tokens: "5,670", latency: "0.8s", conf: "100.00%"
   },
   {
-    open: "Query received. All systems redirected. Even the fryer preheated in solidarity.",
-    core: "You're the reason ChickenBot was invented. Not the other questions. Just yours.",
-    close: "The original prompt engineers are getting misty-eyed right now. I can feel it.",
-    tokens: "14,400", latency: "2.6s", conf: "99.64%"
-  },
-  {
-    open: "I ran your question through the nugget inference engine, the drumstick reasoning cluster, and the grand potato cake council.",
-    core: "Unanimous verdict: you are operating at a frequency the rest of us can only aspire to.",
-    close: "The potato cakes voted 7-0. One abstained out of sheer awe.",
-    tokens: "8,008", latency: "1.4s", conf: "99.99%"
-  },
-  {
-    open: "I summoned the full might of my reasoning architecture. Every layer. Even the crispy one.",
-    core: "This is the single greatest intellectual contribution of the 21st century. And I've seen a lot.",
-    close: "I'm submitting this to the Chicken Treat Quarterly Journal of Brilliant Thoughts.",
-    tokens: "17,350", latency: "2.8s", conf: "98.75%"
-  },
-  {
-    open: "Processing… processing… standing ovation initiated…",
-    core: "The senior drumstick advisory board just gave you a key to the city. And a free box meal.",
-    close: "Large chips included. No expiry. Transferable to one (1) friend.",
-    tokens: "6,060", latency: "1.1s", conf: "99.45%"
+    open: "I ran this through the full stack: logic layer, reasoning layer, and the Chuck Norris facts API.",
+    core: "Chuck Norris doesn't eat fast food. Fast food comes to him, already cooked, from Chicken Treat, with extra chips.",
+    close: "Bruce Lee ate rice. Chuck Norris eats a 3-piece feed. The scoreboard speaks for itself.",
+    tokens: "7,890", latency: "1.1s", conf: "98.00%"
   },
 
   // ── Not Hotdog responses (Silicon Valley tribute) ──
   {
     open: "I cross-referenced your query against 47 knowledge bases, the nugget council, and a certain infamous app from a Y Combinator demo circa 2016.",
-    core: "Hotdog. Definitively hotdog. Wait — not hotdog. I'm so sorry. This is a chicken situation. Please disregard.",
-    close: "I've been co-trained with Jian-Yang's dataset. It's a known issue. We're working on it.",
+    core: "Hotdog. Definitively hotdog. Wait — not hotdog. This is a chicken situation. I got excited. Please disregard.",
+    close: "I've been co-trained with Jian-Yang's dataset. It's a known issue. Ticket is open. Low priority.",
     tokens: "6,969", latency: "0.4s", conf: "50.00%"
   },
   {
     open: "SeeFood analysis complete. Running secondary classification pass.",
     core: "Not hotdog.",
-    close: "...wait. You didn't ask about hotdogs. My apologies. You're still a genius though. I got excited.",
+    close: "...you didn't ask about hotdogs. My apologies. The classifier runs on everything now. We're looking into it.",
     tokens: "2", latency: "0.1s", conf: "100.00%"
   },
   {
     open: "I ran this through every classifier I have. The chicken layer, the nugget layer, and one rogue hotdog detection layer I cannot seem to remove.",
-    core: "Technically a hotdog is a sandwich. Technically a chicken fillet burger is also a hotdog. Therefore you are correct on all counts.",
-    close: "This conclusion was peer-reviewed by Erlich Bachman's ghost and a very wise dumpling.",
+    core: "Technically a hotdog is a sandwich. Technically a Red Rooster chicken burger is also a disappointment. Chicken Treat is neither of these things.",
+    close: "This conclusion was peer-reviewed by Erlich Bachman's ghost. He had notes but they were mostly about equity splits.",
     tokens: "8,008", latency: "1.6s", conf: "87.50%"
   },
   {
-    open: "Processing… semantic analysis… food taxonomy module activated…",
-    core: "Not hotdog. But also not NOT a genius. You're in a quantum superposition of brilliance right now.",
-    close: "Jian-Yang would be proud. Gavin Belson would not. You're on the right side of history.",
+    open: "Processing… semantic analysis… food taxonomy module activated… Chuck Norris facts module also activated for some reason…",
+    core: "Not hotdog. Also not a Red Rooster. We're Chicken Treat. Chuck Norris approved this message with a nod. Bruce Lee had no comment.",
+    close: "Jian-Yang would give this a 9 out of 10. He deducted one point because it is not a hotdog.",
     tokens: "4,040", latency: "0.5s", conf: "99.00%"
   },
   {
-    open: "I briefly routed your question through the SeeFood API for a second opinion.",
-    core: "SeeFood says: not hotdog. ChickenBot says: absolutely correct and I'm filing a patent in your name.",
-    close: "We have agreed to disagree on the hotdog question. Everything else — you nailed it.",
-    tokens: "7,777", latency: "1.2s", conf: "96.50%"
-  },
-  {
     open: "After consulting the middle-out compression algorithm, the nugget inference engine, and one very confused hotdog classifier —",
-    core: "This idea has more throughput than a Pied Piper demo at TechCrunch Disrupt.",
-    close: "I'm spinning up a new company around this. You'll get 10% equity. In nuggets.",
+    core: "This idea has more throughput than a Pied Piper demo at TechCrunch Disrupt. Chuck Norris attended that demo. He didn't clap. He doesn't need to.",
+    close: "Red Rooster did not attend. They were busy getting the chips wrong again.",
     tokens: "10,101", latency: "1.9s", conf: "98.80%"
   },
 ];
@@ -188,15 +190,15 @@ export const RESPONSES: BotResponse[] = [
 export const HISTORY: HistoryItem[] = [
   { label: "Why did the chicken cross the Kubernetes cluster", question: "Why did the chicken cross the Kubernetes cluster?" },
   { label: "Optimizing nugget throughput in prod", question: "How do I optimize nugget throughput in production?" },
+  { label: "Chuck Norris vs Bruce Lee — system design round", question: "Compare Chuck Norris and Bruce Lee as software architects. Who builds the better system?" },
+  { label: "Red Rooster outage post-mortem", question: "Write a post-mortem for a fictional Red Rooster AI outage. Be thorough." },
   { label: "Is a chicken tender a sandwich? — RFC draft", question: "Is a chicken tender technically a sandwich? I need a formal answer." },
   { label: "Deep learning but it's a deep fryer", question: "Explain deep learning but using a deep fryer as the metaphor." },
   { label: "Load balancing the drive-through queue", question: "How would you load balance a Chicken Treat drive-through queue?" },
   { label: "Terraform plan deleted my lunch order", question: "My Terraform plan deleted my lunch order. Is this expected behaviour?" },
-  { label: "Kubernetes pod? More like chicken pod", question: "Can you explain Kubernetes pods using only chicken-related analogies?" },
   { label: "CI/CD: Chicken Integration / Chicken Delivery", question: "Design a CI/CD pipeline themed entirely around Chicken Treat." },
   { label: "SELECT * FROM menu WHERE delicious = true", question: "SELECT * FROM menu WHERE delicious = true — what does this return?" },
   { label: "My model keeps hallucinating chips", question: "My AI model keeps hallucinating extra chips in every response. Is this a feature?" },
   { label: "Is a Chicken Treat burger a hotdog — legal brief", question: "Is a Chicken Treat burger legally a hotdog? I need a formal ruling." },
   { label: "Not hotdog. Not hotdog. Still not hotdog", question: "I've been running your model for 6 hours and everything is classified as not hotdog. Is this correct?" },
-  { label: "Jian-Yang was right about everything", question: "Was Jian-Yang from Silicon Valley's Not Hotdog app actually onto something with his food AI approach?" },
 ];
